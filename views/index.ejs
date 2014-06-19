@@ -1,2 +1,12 @@
 
 <h1>Welcome to the index page</h1>
+
+<p> Its really awesome! </p>
+
+<h2>All my friends</h2>
+<ul>
+<!-- looping through our people object -->
+<% for(var i=0; i<people.length; i++) {%>
+   <li><%= people[i] %></li>
+<% } %>
+</ul>

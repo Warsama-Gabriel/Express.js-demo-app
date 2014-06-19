@@ -1,0 +1,8 @@
+
+<h1>All the dogs in our database!</h1>
+<ul>
+<!-- looping through our people object -->
+<% for(var i=0; i<dogs.length; i++) {%>
+   <li><%= dogs[i].name %> - <%= dogs[i].breed %></li>
+<% } %>
+</ul>
